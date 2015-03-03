@@ -1,6 +1,8 @@
-# [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp)
+# [angular-gulp-boilerplate](https://github.com/jakt/angular-gulp-boilerplate)
 
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
+An opinionated kickstarter for [AngularJS](http://angularjs.org) projects. Heavily inspired by Josh Miller's [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) 
+
+
 
 ***
 
@@ -9,26 +11,18 @@ An opinionated kickstarter for [AngularJS](http://angularjs.org) projects.
 Install Node.js and then:
 
 ```sh
-$ git clone https://github.com/jforaker/ngbp-gulp.git
-$ cd ngbp-gulp
+$ git clone https://github.com/jakt/angular-gulp-boilerplate.git . 
 $ npm install
 $ bower install
 $ gulp
 ```
 
-Finally, open `file:///path/to/ng-boilerplate/build/index.html` in your browser.
+Finally, open `localhost:8080/` in your browser.
 
-
-For a production build:
-
-```sh
-$ gulp prod
-$ gulp injectify
-```
 
 ## Purpose
 
-`ngBoilerplate` is designed to make life easy by providing a basic framework
+`angular-gulp-boilerplate` is designed to make life easy by providing a basic framework
 with which to kickstart AngularJS projects. It contains a best-practice
 directory structure to ensure code reusability and maximum scalability.
 ngBoilerplate also comes prepackaged with the most popular design frameworks
@@ -46,8 +40,7 @@ All you have to do is clone it and start coding!
 At a high level, the structure looks roughly like this:
 
 ```
-ng-boilerplate/
-  |- grunt-tasks/
+angular-gulp-boilerplate/
   |- karma/
   |- src/
   |  |- app/
@@ -59,9 +52,11 @@ ng-boilerplate/
   |  |- sass/
   |  |  |- main.scss
   |- vendor/
-  |  |- angular-bootstrap/
+  |  |- angular/
+  |  |- jquery/
   |  |- bootstrap/
-  |  |- placeholders/
+  |  |- lodash/
+  |  |- ..and more/
   |- .bowerrc
   |- bower.json
   |- build.config.js
@@ -87,15 +82,10 @@ learn more.
   list of Bower dependencies we need.
 - `build.config.js` - our customizable build settings; see "The Build System"
   below.
-- `gulpfile.js` - our build script; see "The Build System" below.
+- `gulpfile.js` - our build script
 - `module.prefix` and `module.suffix` - our compiled application script is
   wrapped in these, which by default are used to place the application inside a
   self-executing anonymous function to ensure no clashes with other libraries.
 - `package.json` - metadata about the app, used by NPM and our build script. Our
   NPM dependencies are listed here.
 
-
-
-### The Build System
-
-//todo - add more
