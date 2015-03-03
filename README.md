@@ -1,6 +1,6 @@
 # [angular-gulp-boilerplate](https://github.com/jakt/angular-gulp-boilerplate)
 
-An opinionated kickstarter for [AngularJS](http://angularjs.org) projects. Heavily inspired by Josh Miller's [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) 
+An opinionated kickstarter for [AngularJS](http://angularjs.org) projects. Heavily inspired by Josh Miller's [ngBoilerplate](http://joshdmiller.github.com/ng-boilerplate) but modified to use `gulp` istead of `grunt`.
 
 
 
