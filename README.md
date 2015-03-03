@@ -89,3 +89,9 @@ learn more.
 - `package.json` - metadata about the app, used by NPM and our build script. Our
   NPM dependencies are listed here.
 
+
+### Boilerplate TODO's
+
+* add html5 mode/connect-history-api-fallback to gulp
+* add built in auth service
+* add commonly used utility service 
